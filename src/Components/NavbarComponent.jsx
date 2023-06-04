@@ -23,7 +23,14 @@ const NavbarComponent = () => {
           <li className='hover:text-primary'>Roadmap</li>
           <li className='hover:text-primary'>Team</li>
           <li className='hover:text-primary'>About</li>
-          <li className='hover:text-primary'>Wallet</li>
+          <li className='hover:text-primary  flex flex-row'>
+            Wallet
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.30469 12.4044L11.6316 15.8351C11.8447 16.0549 12.1592 16.0549 12.3724 15.8351L18.8021 9.20467C19.2033 8.79094 18.9601 8 18.4317 8H12.7091L8.30469 12.4044Z" fill="#FDFBFA" />
+              <path opacity="0.5" d="M11.2929 8H5.5703C5.04189 8 4.79869 8.79094 5.1999 9.20467L7.60648 11.6864L11.2929 8Z" fill="#FDFBFA" />
+            </svg>
+
+          </li>
         </ul>
       </div>
 
