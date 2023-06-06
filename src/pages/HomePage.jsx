@@ -1,6 +1,5 @@
 import React from 'react'
-import NavbarComponent from '../components/NavbarComponent';
-import backgroundImage from '../assets/background.svg';
+import NavbarComponent from '../Components/NavbarComponent';
 import HeroComponent from '../Components/HeroComponent';
 import PartnersComponent from '../Components/PartnersComponent';
 import ServicesComponent from '../Components/ServicesComponent';
