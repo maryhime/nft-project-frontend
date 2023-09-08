@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { NAVIGATION } from '../data';
 import { Bars3Icon } from '@heroicons/react/24/solid'
 import { ButtonComponent } from './GenericComponent.jsx/ButtonComponent';
 
@@ -9,7 +8,7 @@ export const NavbarComponent = () => {
   ]);
 
   return (
-    <div className="flex flex-row gap-48 px-main-sides-phone md:px-main-sides-tablet lg:px-main-sides-desktop py-16 w-full backdrop:blur-md sticky top-0 ">
+    <div className="flex flex-row gap-48 px-main-sides-phone md:px-main-sides-tablet lg:px-main-sides-desktop py-16 w-full backdrop-blur-md sticky top-0 z-50">
       <div className="flex items-center">
         <img src="images/logo.svg" className='w-[200px]' alt="logo" />
       </div>

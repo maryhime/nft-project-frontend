@@ -54,7 +54,7 @@ export default {
         'sub-heading': ['20px', {
           lineHeight: 'normal',
           letterSpacing: 'normal',
-          fontWeight: '300',
+          fontWeight: '200',
         }],
         'nav-item': ['16px', {
           lineHeight: '24px',
@@ -66,6 +66,7 @@ export default {
         '56': '56px',
         '48': '48px',
         '24': '24px',
+        '16' : '16px'
       },
       padding: {
         'main-sides-desktop': '16.5%',
@@ -76,7 +77,7 @@ export default {
         '16' : '16px'
       },
       boxShadow: {
-        'pink': '3px 16px 28px 0px rgba(255, 0, 232, 0.15), 7px -8px 40px 0px rgba(255, 0, 232, 0.15), 9px 1px 18px 0px rgba(255, 0, 232, 0.25), -17px 1px 45px 0px rgba(255, 0, 232, 0.15)',
+        'pink': '3px 16px 28px 0px rgba(255, 0, 232, 0.15), 7px -8px 40px 0px rgba(255, 0, 232, 0.15), 9px 1px 18px 0px rgba(255, 0, 232, 0.25), -17px 1px 45px 0px rgba(255,0,232,0.15)',
         'blue': '3px 16px 28px 0px rgba(0, 182, 255, 0.15), 7px -8px 40px 0px rgba(0, 182, 255, 0.15), 9px 1px 18px 0px rgba(0, 182, 255, 0.25), -17px 1px 45px 0px rgba(0, 182, 255, 0.15)',
       },
       borderRadius : {
