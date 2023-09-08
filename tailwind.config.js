@@ -26,6 +26,18 @@ export default {
           fontWeight: '400',
           fontFamily: 'heading'
         }],
+        'tab-main-heading': ['75px', {
+          lineHeight: '116.7%',
+          letterSpacing: 'normal',
+          fontWeight: '400',
+          fontFamily: 'heading'
+        }],
+        'phone-main-heading': ['64px', {
+          lineHeight: '116.7%',
+          letterSpacing: 'normal',
+          fontWeight: '400',
+          fontFamily: 'heading'
+        }],
         'heading': ['48px', {
           lineHeight: '56.016px',
           letterSpacing: 'normal',
@@ -40,11 +52,6 @@ export default {
           lineHeight: '27px',
           letterSpacing: 'normal',
           fontWeight: '600',
-        }],
-        'headings': ['', {
-          lineHeight: '',
-          letterSpacing: '',
-          fontWeight: '',
         }],
         'button': ['18', {
           lineHeight: '26px',
