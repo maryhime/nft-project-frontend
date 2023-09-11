@@ -13,15 +13,18 @@ export const NavbarComponent = () => {
         <img src="images/logo.svg" className='w-[200px]' alt="logo" />
       </div>
       <div className=" text-white w-full flex items-center justify-end gap-48">
-        <ul className='hidden font-body lg:flex flex-row gap-24 text-nav-item '>
+        <ul className='hidden font-body md:flex flex-row gap-24 text-nav-item '>
           {NAVIGATION.map((value, index) =>
             <li key={index} className='hover:text-primary hover:cursor-pointer'>
             <a href=""></a>  {value}
             </li>
           )}
         </ul>
-        <Bars3Icon className='lg:hidden h-[32px] w-[32px] ' />
-        <ButtonComponent title={'Buy Now'} variant={'filled'} />
+        <Bars3Icon className='md:hidden h-[32px] w-[32px] ' />
+        <div className="hidden md:block">
+           <ButtonComponent title={'Buy Now'} variant={'filled'} />
+        </div>
+       
       </div>
     </div >
   )
