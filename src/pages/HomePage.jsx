@@ -3,6 +3,7 @@ import { NavbarComponent } from '../Components/NavbarComponent'
 import HeroSection from './sections/HeroSection'
 import { PartnersSection } from './sections/PartnersSection'
 import { ServicesSection } from './sections/ServicesSection'
+import { CharactersSection } from './sections/CharactersSection'
 
 
 
@@ -15,6 +16,7 @@ const HomePage = () => {
         <HeroSection/>
         <PartnersSection/>
         <ServicesSection/>
+        <CharactersSection/>
       </div >
 
 

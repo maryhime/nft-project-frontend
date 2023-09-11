@@ -79,7 +79,7 @@ export default {
         'main-sides-desktop': '15%',
         'main-sides-tablet': '10%',
         'main-sides-phone': '4%',
-        '80' : '80px',
+        '80': '80px',
         '48': '48px',
         '24': '24px',
         '16': '16px'
@@ -96,7 +96,39 @@ export default {
       height: {
         'button': '56px',
       },
-      
+      keyframes: {
+        slide1: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": {
+            transform: "translateX(-105%)",
+          },
+        },
+        slide2: {
+          "0%": { transform: "translateX(102%)" },
+          "100%": {
+            transform: "translateX(0%)",
+          },
+        },
+        'slide-right': {
+          "0%": { transform: "translateX(-105%)" },
+          "100%": {
+            transform: "translateX(0%)",
+          },
+        },
+        'slide-right2': {
+          "0%": { transform: "translateX(0%)" },
+          "100%": {
+            transform: "translateX(102%)",
+          },
+        },
+      },
+      animation: {
+        'slide': "slide1 20s linear infinite",
+        'slide2': "slide2 20s linear infinite",
+        'slide-right': "slide-right 20s linear infinite",
+        'slide-right2': "slide-right2 20s linear infinite",
+      },
+
     },
   },
   plugins: [],
