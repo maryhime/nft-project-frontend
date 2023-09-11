@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import { NavbarComponent } from '../Components/NavbarComponent'
 import HeroSection from './sections/HeroSection'
 import { PartnersSection } from './sections/PartnersSection'
+import { ServicesSection } from './sections/ServicesSection'
 
 
 
@@ -13,6 +14,7 @@ const HomePage = () => {
         <NavbarComponent/>
         <HeroSection/>
         <PartnersSection/>
+        <ServicesSection/>
       </div >
 
 

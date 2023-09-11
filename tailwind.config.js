@@ -76,7 +76,7 @@ export default {
         '16': '16px'
       },
       padding: {
-        'main-sides-desktop': '16.5%',
+        'main-sides-desktop': '15%',
         'main-sides-tablet': '10%',
         'main-sides-phone': '4%',
         '80' : '80px',
