@@ -8,8 +8,8 @@ export const CardComponent = ({ image }) => {
 
 
       <div className="relative flex justify-center">
-        <img className='p-24 absolute top-0 left-[165px] lg:left-8 w-[50%] lg:w-[82%] h-' src={image} alt="" />
-        <img className='p-24 backdrop-blur-sm w-[50%] lg:w-[82%]' src={image} alt="" />
+        <img className='p-24 absolute top-0 left-[10%] md:w-[50%] md:left-[20%] blur-sm lg:left-8 w-[70%] lg:w-[82%]' src={image} alt="" />
+        <img className='p-24 backdrop-blur-sm w-[70%] md:w-[50%] lg:w-[82%]' src={image} alt="" />
       </div>
       <div className="border-2 border-primary absolute left-5 p-24 top-0 rounded-[50px] w-full h-full blur-sm"></div>
       <div className="border-2 border-secondary absolute left-2 p-24 top-2 rounded-[50px] w-full h-full"> </div>
