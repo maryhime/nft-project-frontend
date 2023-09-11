@@ -4,6 +4,7 @@ import HeroSection from './sections/HeroSection'
 import { PartnersSection } from './sections/PartnersSection'
 import { ServicesSection } from './sections/ServicesSection'
 import { CharactersSection } from './sections/CharactersSection'
+import { FAQsSection } from './sections/FAQsSection'
 
 
 
@@ -17,6 +18,7 @@ const HomePage = () => {
         <PartnersSection/>
         <ServicesSection/>
         <CharactersSection/>
+        <FAQsSection/>
       </div >
 
 

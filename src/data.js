@@ -2,37 +2,33 @@ export const CHARACTERS = Object.freeze([
   {
     image: 'images/characters/character-1.png',
     width: 'w-full md:w-[82%] left-[10%] md:left-[2%]  lg:left-[3%] ',
-    blurredImage : 'w-full md:w-[86%]'
+    blurredImage: 'w-full md:w-[86%]'
   },
   {
     image: 'images/characters/character-2.png',
     width: 'w-full md:w-[82%] left-[10%] md:left-[2%]  lg:left-[3%] ',
-    blurredImage : 'w-full md:w-[88%]',
+    blurredImage: 'w-full md:w-[88%]',
   },
   {
     image: 'images/characters/character-3.png',
     width: 'w-full md:w-[82%] left-[10%] md:left-[2%]  lg:left-[3%] ',
-    blurredImage : 'w-full md:w-[88%]',
+    blurredImage: 'w-full md:w-[88%]',
   },
   {
     image: 'images/characters/character-4.png',
     width: 'w-full md:w-[82%]  left-[10%] md:left-[2%]  lg:left-[3%] ',
-    blurredImage : 'w-full md:w-[90%]',
+    blurredImage: 'w-full md:w-[90%]',
   },
   {
     image: 'images/characters/character-5.png',
     width: 'w-full left-[10%] md:-left-[2%]  lg:-left-[5%]',
-    blurredImage : 'w-full',
+    blurredImage: 'w-full',
   },
   {
     image: 'images/characters/character-6.png',
     width: 'w-full left-[10%] md:-left-[3%]  lg:-left-[5%]',
-    blurredImage : 'w-full',
+    blurredImage: 'w-full',
   },
-
-
-
-
 
 ]);
 
@@ -48,5 +44,28 @@ export const SERVICES = Object.freeze([
   {
     heading: 'Our environmental impact matters to us',
     description: 'Even though no two Tinyfaces will ever be the same, some variations are rarer than others. Watch out for special accessories and raw materials - the rarer the attributes, the rarer your character will be.'
+  },
+]);
+
+export const QUESTIONS = Object.freeze([
+  {
+    question: 'What is an NFT?',
+    answer: 'NFT stands for "Non-Fungible Token," which is a digital asset that represents ownership or proof of authenticity of a unique item or piece of content, often using blockchain technology. Unlike cryptocurrencies like Bitcoin, NFTs are not interchangeable because each one is distinct and cannot be replicated, making them valuable for owning digital art, collectibles, music, and more.'
+  },
+  {
+    question: 'What makes our NFT special?',
+    answer: 'NFT stands for "Non-Fungible Token," which is a digital asset that represents ownership or proof of authenticity of a unique item or piece of content, often using blockchain technology. Unlike cryptocurrencies like Bitcoin, NFTs are not interchangeable because each one is distinct and cannot be replicated, making them valuable for owning digital art, collectibles, music, and more.'
+  },
+  {
+    question: 'Who’s the team behind our NFT?',
+    answer: 'NFT stands for "Non-Fungible Token," which is a digital asset that represents ownership or proof of authenticity of a unique item or piece of content, often using blockchain technology. Unlike cryptocurrencies like Bitcoin, NFTs are not interchangeable because each one is distinct and cannot be replicated, making them valuable for owning digital art, collectibles, music, and more.'
+  },
+  {
+    question: 'When does minting begin?',
+    answer: 'NFT stands for "Non-Fungible Token," which is a digital asset that represents ownership or proof of authenticity of a unique item or piece of content, often using blockchain technology. Unlike cryptocurrencies like Bitcoin, NFTs are not interchangeable because each one is distinct and cannot be replicated, making them valuable for owning digital art, collectibles, music, and more.'
+  },
+  {
+    question: 'Who can mint one?',
+    answer: 'NFT stands for "Non-Fungible Token," which is a digital asset that represents ownership or proof of authenticity of a unique item or piece of content, often using blockchain technology. Unlike cryptocurrencies like Bitcoin, NFTs are not interchangeable because each one is distinct and cannot be replicated, making them valuable for owning digital art, collectibles, music, and more.'
   },
 ])
