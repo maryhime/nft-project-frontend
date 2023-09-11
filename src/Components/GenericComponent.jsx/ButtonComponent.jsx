@@ -9,7 +9,7 @@ export const ButtonComponent = ({ title, variant, style, link }) => {
           {title}
         </button>;
       case 'outlined' :
-        return <button className={`hover:cursor-pointer px-24 py-16 uppercase border-secondary border-[1px] rounded-button font-body w-full text-secondary ${style}`}>
+        return <button className={`hover:cursor-pointer px-24 py-16 uppercase border-secondary border-[1px] text-button rounded-button font-body w-full text-secondary ${style}`}>
           {title}
         </button>;
     }

@@ -53,7 +53,7 @@ export default {
           letterSpacing: 'normal',
           fontWeight: '600',
         }],
-        'button': ['18', {
+        'button': ['18px', {
           lineHeight: '26px',
           letterSpacing: 'normal',
           fontWeight: '700',
