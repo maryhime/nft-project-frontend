@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-export const ButtonComponent = ({ title, variant, style }) => {
+export const ButtonComponent = ({ title, variant, style, link }) => {
 
   const buttonVariant = () => {
     switch (variant) {
@@ -16,7 +16,7 @@ export const ButtonComponent = ({ title, variant, style }) => {
   }
   return (
 
-    <a href={'https://mary-therese.vercel.app/'} target='_blank' rel='noreferrer' className='no-underline '>
+    <a href={link} target='_blank' rel='noreferrer' className='no-underline '>
       {buttonVariant()}
     </a>
 

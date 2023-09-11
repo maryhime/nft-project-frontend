@@ -1,7 +1,6 @@
 import React from 'react'
 import { ButtonComponent } from '../../Components/GenericComponent.jsx/ButtonComponent'
 import { CardComponent } from '../../Components/GenericComponent.jsx/CardComponent'
-import { CHARACTERS } from '../../data'
 
 const HeroSection = () => {
   return (
@@ -18,16 +17,18 @@ const HeroSection = () => {
         </div>
 
         {/* button group */}
-        <div className="flex flex-col md:flex-row gap-24">
+        <div className="flex flex-col-reverse md:flex-row gap-24">
           <ButtonComponent
             variant={'outlined'}
-            title={'Buy Now'}
+            title={'Github Repository'}
             style={'shadow-blue w-[164px]'}
+            link={'https://github.com/maryhime/nft-project-frontend'}
           />
           <ButtonComponent
             variant={'filled'}
-            title={'Connect Wallet'}
+            title={'View Portfolio'}
             style={'shadow-pink hover:shadow-blue'}
+            link={'https://mary-therese.vercel.app/'}
           />
         </div>
       </div>
