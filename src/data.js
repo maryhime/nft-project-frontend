@@ -1,37 +1,37 @@
-export const NAVIGATION = Object.freeze([
-  'Roadmap', 'Team', 'About', 'Wallet'
-]);
+ export const NAVIGATION = Object.freeze([
+    'Roadmap', 'Team', 'About', 'Wallet'
+  ]);
 
 export const CHARACTERS = Object.freeze([
   {
     image: 'images/characters/character-1.png',
     width: 'w-full md:w-[82%] left-[10%] md:left-[2%]  lg:left-[3%] ',
-    blurredImage: 'w-full md:w-[86%]'
+    blurredImage: 'w-full md:w-[86%] rounded-[30px]'
   },
   {
     image: 'images/characters/character-2.png',
     width: 'w-full md:w-[82%] left-[10%] md:left-[2%]  lg:left-[3%] ',
-    blurredImage: 'w-full md:w-[88%]',
+    blurredImage: 'w-full rounded-[45px]',
   },
   {
     image: 'images/characters/character-3.png',
     width: 'w-full md:w-[82%] left-[10%] md:left-[2%]  lg:left-[3%] ',
-    blurredImage: 'w-full md:w-[88%]',
+    blurredImage: 'w-full md:w-[88%] rounded-[30px]',
   },
   {
     image: 'images/characters/character-4.png',
     width: 'w-full md:w-[82%]  left-[10%] md:left-[2%]  lg:left-[3%] ',
-    blurredImage: 'w-full md:w-[90%]',
+    blurredImage: 'w-full md:w-[90%] rounded-[30px]',
   },
   {
     image: 'images/characters/character-5.png',
-    width: 'w-full left-[10%] md:-left-[2%]  lg:-left-[5%]',
-    blurredImage: 'w-full',
+    width: 'w-full left-[10%] md:-left-[2%]  lg:-left-[5%] ',
+    blurredImage: 'w-full rounded-[45px]',
   },
   {
     image: 'images/characters/character-6.png',
     width: 'w-full left-[10%] md:-left-[3%]  lg:-left-[5%]',
-    blurredImage: 'w-full',
+    blurredImage: 'w-full rounded-[45px]',
   },
 
 ]);

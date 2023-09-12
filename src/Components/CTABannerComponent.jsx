@@ -4,7 +4,7 @@ import { ButtonComponent } from './GenericComponent.jsx/ButtonComponent'
 export const CTABannerComponent = () => {
   return (
     <div className="bg-[url('/images/cta-bg.png')] bg-no-repeat bg-cover
- x-main-sides-phone md:px-main-sides-tablet 2xl:px-main-sides-desktop pt-[10%] w-full">
+ x-main-sides-phone md:px-main-sides-tablet 2xl:px-main-sides-desktop py-[10%] xl:pt-[10%] xl:pb-0 w-full px-main-sides-phone">
       <div className="flex flex-col gap-48">
         <div className="flex flex-col gap-16 text-white">
           <h2 className="text-white text-center text-phone-main-heading md:text-tab-main-heading 2xl:text-main-heading uppercase">
@@ -15,7 +15,7 @@ export const CTABannerComponent = () => {
           </p>
         </div>
 
-        <div className="flex flex-col-reverse md:flex-row gap-24 justify-center">
+        <div className="flex flex-col-reverse md:flex-row gap-24 justify-center px-main-sides-phone md:px-main-sides-tablet">
           <ButtonComponent
             variant={'filled'}
             title={'View Portfolio'}
@@ -30,7 +30,7 @@ export const CTABannerComponent = () => {
           />
         </div>
       </div>
-      <div className="flex w-full  justify-center relative h-[700px] items-end">
+      <div className="hidden xl:flex w-full  justify-center relative h-[700px] items-end">
         <img className='h-[500px]' src="images/characters/character-6.png" alt="" />
         <img className='h-[600px]' src="images/characters/character-2.png" alt="" />
         <img className=' h-[500px]' src="images/characters/character-1.png" alt="" />
