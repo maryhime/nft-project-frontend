@@ -14,7 +14,7 @@ export const FAQsSection = () => {
       <Accordion  className=" flex flex-col gap-24 w-full text-white font-body">
         {QUESTIONS.map((value, index) =>
           <Accordion.Panel key={index}>
-            <Accordion.Title arrowIcon={PlusIcon} className='hover:cursor-pointer justify-between text-body-text font-[600] lg:text-accordion-heading border-secondary  border-2 rounded-accordion open:rounded-accordion-open p-[16px] lg:px-24 lg:py-[20px]'>
+            <Accordion.Title className='hover:cursor-pointer justify-between text-body-text font-[600] lg:text-accordion-heading border-secondary  border-2 rounded-accordion open:rounded-accordion-open p-[16px] lg:px-24 lg:py-[20px]'>
               {value.question}
             </Accordion.Title>
             <Accordion.Content className='px-24'>

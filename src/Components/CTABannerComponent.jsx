@@ -15,7 +15,7 @@ export const CTABannerComponent = () => {
           </p>
         </div>
 
-        <div className="flex flex-col-reverse md:flex-row gap-24 justify-center px-main-sides-phone md:px-main-sides-tablet">
+        <div className="flex flex-col-reverse sm:flex-row gap-24 justify-center px-main-sides-phone md:px-main-sides-tablet">
           <ButtonComponent
             variant={'filled'}
             title={'View Portfolio'}

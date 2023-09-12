@@ -34,7 +34,7 @@ export const CharacterSliderComponent = () => {
       </div>
 
       {/* grid only */}
-      <div className="px-main-sides-phone py-[5%] md:px-main-sides-tablet 2xl:px-main-sides-desktop grid grid-cols-2 md:grid-cols-3 gap-24 lg:hidden">
+      <div className="px-main-sides-phone py-[5%] md:px-main-sides-tablet 2xl:px-main-sides-desktop grid grid-cols-2 sm:grid-cols-3 gap-24 lg:hidden">
         {CHARACTERS.map((values, index) =>
           <CharacterContainer key={index} image={values.image} style={values.width} blurredImage={values.blurredImage} />
         )}
