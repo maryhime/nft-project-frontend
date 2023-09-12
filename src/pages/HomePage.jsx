@@ -5,6 +5,7 @@ import { PartnersSection } from './sections/PartnersSection'
 import { ServicesSection } from './sections/ServicesSection'
 import { CharactersSection } from './sections/CharactersSection'
 import { FAQsSection } from './sections/FAQsSection'
+import { CTABannerComponent } from '../Components/CTABannerComponent'
 
 
 
@@ -19,6 +20,7 @@ const HomePage = () => {
         <ServicesSection/>
         <CharactersSection/>
         <FAQsSection/>
+        <CTABannerComponent/>
       </div >
 
 
