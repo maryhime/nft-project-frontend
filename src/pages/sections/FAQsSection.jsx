@@ -1,5 +1,8 @@
 import React from 'react'
 import { QUESTIONS } from '../../data'
+import { Accordion } from 'flowbite-react'
+import { PlusIcon } from '@heroicons/react/24/solid'
+
 
 export const FAQsSection = () => {
   return (
@@ -8,11 +11,20 @@ export const FAQsSection = () => {
         Your <span className='text-secondary'> Questions, </span>
         answered.
       </h2>
-      {QUESTIONS.map((value, index) =>
-        <div key={index} className="rounded-accordion px-24 py-[20px] text-white">
+      <Accordion  className=" flex flex-col gap-24 w-full text-white font-body">
+        {QUESTIONS.map((value, index) =>
+          <Accordion.Panel key={index}>
+            <Accordion.Title arrowIcon={PlusIcon} className='hover:cursor-pointer justify-between text-accordion-heading border-primary  border-2 rounded-accordion open:rounded-accordion-open px-24 py-[20px]'>
+              {value.question}
+            </Accordion.Title>
+            <Accordion.Content className='px-24'>
+              {value.answer}
+            </Accordion.Content>
+          </Accordion.Panel>
+          
+        )}
+      </Accordion>
 
-        </div>
-      )}
 
 
 

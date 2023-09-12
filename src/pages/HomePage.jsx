@@ -12,7 +12,7 @@ import { FAQsSection } from './sections/FAQsSection'
 const HomePage = () => {
   return (
     <Fragment>
-      <div className="bg-[url('/images/background.png')] cursor-normal bg-no-repeat bg-cover" >
+      <div className="bg-[url('/images/background.png')] pointer-events-auto cursor-normal bg-no-repeat " >
         <NavbarComponent/>
         <HeroSection/>
         <PartnersSection/>
