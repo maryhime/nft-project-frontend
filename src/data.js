@@ -1,3 +1,7 @@
+export const NAVIGATION = Object.freeze([
+  'Roadmap', 'Team', 'About', 'Wallet'
+]);
+
 export const CHARACTERS = Object.freeze([
   {
     image: 'images/characters/character-1.png',

@@ -35,7 +35,6 @@ export const CTABannerComponent = () => {
         <img className='h-[600px]' src="images/characters/character-2.png" alt="" />
         <img className=' h-[500px]' src="images/characters/character-1.png" alt="" />
       </div>
-      
     </div>
   )
 }

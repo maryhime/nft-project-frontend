@@ -6,6 +6,7 @@ import { ServicesSection } from './sections/ServicesSection'
 import { CharactersSection } from './sections/CharactersSection'
 import { FAQsSection } from './sections/FAQsSection'
 import { CTABannerComponent } from '../Components/CTABannerComponent'
+import { FooterComponent } from '../Components/FooterComponent'
 
 
 
@@ -21,6 +22,7 @@ const HomePage = () => {
         <CharactersSection/>
         <FAQsSection/>
         <CTABannerComponent/>
+        <FooterComponent/>
       </div >
 
 
