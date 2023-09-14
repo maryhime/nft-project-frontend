@@ -12,7 +12,7 @@ import { FooterComponent } from '../Components/FooterComponent'
 const HomePage = () => {
 
   return (
-      <div className="bg-[url('/images/background.png')] pointer-events-auto cursor-normal bg-no-repeat " >
+      <div className="bg-[url('/images/background.png')] pointer-events-auto cursor-normal bg-no-repeat overflow-x-hidden " >
         <NavbarComponent/>
         <HeroSection/>
         <PartnersSection/>
