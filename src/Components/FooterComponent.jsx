@@ -15,7 +15,7 @@ export const FooterComponent = () => {
         </ul>
       </div>
       <div className="flex flex-col-reverse lg:flex-row border-t-[1px] border-white pt-24 lg:pt-48 text-white text-[14px] font-[300] font-body w-full gap-24 lg:justify-between">
-        <p className='text-center'>2022 Superare. All right reserved.</p>
+        <p className='text-center lg:text-left w-full'>2022 Superare. All right reserved.</p>
         <div className="flex w-full justify-center lg:justify-end gap-16 lg:gap-24 underline">
           <div className='text-center w-fit'>Privacy Policy</div>
           <div className='text-center w-fit'>Terms of Service</div>
