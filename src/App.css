@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 html {
-  cursor: url(cursor.svg), auto !important;
+  cursor: url(images/cursor.svg), auto !important;
 }
