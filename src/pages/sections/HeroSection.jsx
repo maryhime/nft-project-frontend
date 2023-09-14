@@ -20,7 +20,7 @@ const HeroSection = () => {
         <div className="flex flex-col-reverse md:flex-row gap-24">
           <ButtonComponent
             variant={'outlined'}
-            title={'Github Repository'}
+            title={'Repository'}
             style={'shadow-blue w-[164px]'}
             link={'https://github.com/maryhime/nft-project-frontend'}
           />
@@ -33,14 +33,8 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* {CHARACTERS.map((values, index) =>
-        <CardComponent key={index} image={values} />
-      )} */}
-
-
-   <CardComponent image='images/characters/character-1.png' />
-       
-
+      {/* hero image */}
+      <CardComponent image='images/characters/character-1.png' />
 
     </div>
   )
