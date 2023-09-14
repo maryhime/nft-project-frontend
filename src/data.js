@@ -1,6 +1,6 @@
- export const NAVIGATION = Object.freeze([
-    'Roadmap', 'Team', 'About', 'Wallet'
-  ]);
+export const NAVIGATION = Object.freeze([
+  'Roadmap', 'Team', 'About', 'Wallet'
+]);
 
 export const CHARACTERS = Object.freeze([
   {
@@ -72,4 +72,15 @@ export const QUESTIONS = Object.freeze([
     question: 'Who can mint one?',
     answer: 'NFT stands for "Non-Fungible Token," which is a digital asset that represents ownership or proof of authenticity of a unique item or piece of content, often using blockchain technology. Unlike cryptocurrencies like Bitcoin, NFTs are not interchangeable because each one is distinct and cannot be replicated, making them valuable for owning digital art, collectibles, music, and more.'
   },
+]);
+
+export const PARTNERS = Object.freeze([
+  'images/Relume.svg',
+  'images/webflow.svg',
+  'images/Relume.svg',
+  'images/webflow.svg',
+  'images/Relume.svg',
+  'images/webflow.svg',
+  'images/Relume.svg',
+  'images/webflow.svg',
 ])
