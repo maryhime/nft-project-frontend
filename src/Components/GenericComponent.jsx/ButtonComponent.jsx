@@ -14,11 +14,10 @@ export const ButtonComponent = ({ title, variant, style, link }) => {
         </button>;
     }
   }
-  return (
 
+  return (
     <a href={link} target='_blank' rel='noreferrer' className='no-underline '>
       {buttonVariant()}
     </a>
-
   )
 }

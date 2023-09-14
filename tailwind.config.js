@@ -90,7 +90,6 @@ export default {
       },
       borderRadius: {
         'accordion': '50px 50px 50px 0px',
-        'accordion-open': '50px 50px 0px 0px',
         'button': '5px',
         'card': '50px',
       },
@@ -129,7 +128,6 @@ export default {
         'slide-right': "slide-right 20s linear infinite",
         'slide-right2': "slide-right2 20s linear infinite",
       },
-
     },
   },
   plugins: [
