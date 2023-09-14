@@ -6,6 +6,7 @@ import { MobileMenuComponent } from './MobileMenuComponent';
 
 export const NavbarComponent = () => {
   const [openNav, setOpenNav] = useState(false);
+  
 
   return (
     <Fragment>
@@ -21,7 +22,7 @@ export const NavbarComponent = () => {
               </li>
             )}
           </ul>
-          <Bars3Icon onClick={() => setOpenNav(true)} className='md:hidden h-[32px] w-[32px]' />
+          <Bars3Icon onClick={()=>setOpenNav(true)} className='md:hidden h-[32px] w-[32px]' />
 
           <div className="hidden md:block">
             <ButtonComponent title={'Buy Now'} variant={'filled'} />
@@ -30,6 +31,7 @@ export const NavbarComponent = () => {
       </div >
 
       {openNav == true && <MobileMenuComponent close={() => setOpenNav(false)} />}
+     
     </Fragment>
   )
 }

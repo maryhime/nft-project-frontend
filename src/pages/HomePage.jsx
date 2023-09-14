@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useState } from 'react'
 import { NavbarComponent } from '../Components/NavbarComponent'
 import HeroSection from './sections/HeroSection'
 import { PartnersSection } from './sections/PartnersSection'
@@ -9,11 +9,9 @@ import { CTABannerComponent } from '../Components/CTABannerComponent'
 import { FooterComponent } from '../Components/FooterComponent'
 
 
-
-
 const HomePage = () => {
+
   return (
-    <Fragment>
       <div className="bg-[url('/images/background.png')] pointer-events-auto cursor-normal bg-no-repeat " >
         <NavbarComponent/>
         <HeroSection/>
@@ -24,9 +22,6 @@ const HomePage = () => {
         <CTABannerComponent/>
         <FooterComponent/>
       </div >
-
-
-    </Fragment>
 
   )
 }
