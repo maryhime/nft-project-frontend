@@ -9,7 +9,7 @@ const HeroSection = () => {
         {/* heading and subheading */}
         <div className="flex flex-col gap-16 text-white">
           <h1 className="text-phone-main-heading md:text-tab-main-heading 2xl:text-main-heading uppercase  drop-shadow-[0_4px_21px_rgba(255,0,232,0.50)] ">
-            <span className='text-secondary drop-shadow-[0_0_50px_rgba(0,182,255,0.9)]'>Discover</span>  and <span className='text-primary drop-shadow-[0_0_50px_rgba(255,0,232,0.9)]'> collect </span>superare nfts
+            <span className='animate-pulse text-secondary drop-shadow-[0_0_50px_rgba(0,182,255,0.9)]'>Discover</span>  and <span className='animate-pulse text-primary drop-shadow-[0_0_50px_rgba(255,0,232,0.9)]'> collect </span>superare nfts
           </h1>
           <p className="text-sub-heading font-body">
             Digital marketplace for crypto collectibles and NFTs. Buy, sell, and discover exclusive digital assets today.

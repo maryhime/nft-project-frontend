@@ -1,7 +1,7 @@
 import React from 'react'
 import { SERVICES } from '../../data'
 
-export const ServicesSection = () => {
+const ServicesSection = () => {
   return (
     <div className="flex flex-col lg:flex-row gap-48 2xl:gap-64 px-main-sides-phone md:px-main-sides-tablet 2xl:px-main-sides-desktop py-[5%] w-full ">
 
@@ -36,3 +36,4 @@ export const ServicesSection = () => {
     </div>
   )
 }
+export default ServicesSection
